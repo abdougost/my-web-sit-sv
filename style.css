@@ -226,10 +226,17 @@ nav :hover{
     width: 130px auto;
     height: 120px;
 }
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
 
 
 
     
+
 
 
 
