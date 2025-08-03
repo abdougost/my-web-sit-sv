@@ -1,0 +1,241 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ body{ 
+    background-color:#010925;
+}
+header{ 
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(80deg, #0a009c, #7055e7);
+    padding: 50PX;
+    background-color: rgb(26, 1, 71);
+    max-width: 3000px;
+    max-height: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ .CV{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+ }
+.cv{
+    font-size: 30px;
+    color: #8468e0;
+ }
+ .website{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-size: 30px;
+    color: rgb(223, 223, 233);
+ }
+.navigation{
+    display: flex;
+    flex: 2;
+    justify-content:flex-end;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    gap: 2rem;
+         
+}
+.navigation a{  
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(15, 13, 92);  
+    align-content: center;
+    color:rgb(181, 214, 243);   
+    text-decoration: none;
+    justify-content: space-between;  
+}  
+.navigation a:hover{
+    color: aquamarine;
+}  
+hr{
+    opacity: 30%;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25rem ;
+    margin-top: 15rem;
+    margin-bottom:15rem;
+    padding: 5rem;
+    max-width: 800px;
+}
+.mee{
+display: flex;
+flex-direction: column;
+row-gap:1rem ;
+color: #0ea8c4;
+font-size: larger;
+}
+
+.name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.imdeveloper{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.inputbtns{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    gap: 2rem;
+    row-gap: 2rem;
+}
+.inputbtns a{   
+    text-decoration: none;
+    color: aliceblue;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+     
+}
+.inputbtns img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    transform: translateY(0.2rem);
+}
+.imag{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+.ME{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+   
+}
+.TEXTABOUT{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.texttitle{
+    display: flex;
+    gap: 1rem;
+}
+.about{
+    font-size: 40px;
+    color: aqua;
+    transform: translateY(-0.2rem);
+}
+.me1{
+    font-size: 35px;
+    color: azure;
+    
+}
+.texte{
+   display: flex;
+   color: aliceblue;
+   column-gap: 2rem;
+   margin-top: 20px;
+   flex-direction: column; 
+   transform: translateX(14rem);
+ }
+ 
+ .imgabout{
+    display: flex;  
+    flex-direction: column;
+    transform: translateX(-20rem)translateY(-10rem);
+ }
+ .my{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    margin-top: -200px;
+    padding: 200px;
+    
+ }
+ .myskills{
+    display: flex;
+    gap: 0.5rem;
+    
+ }
+ .My{
+    color: aqua;
+    font-size: 40px;
+ }
+.skills{
+    color: azure;
+    font-size: 30px;
+    transform: translateY(0.6rem);
+}
+p{
+    font-size: larger;
+    transform: translateX(2.5rem);
+    color: azure;
+}
+.imgskill{
+    display: flex;
+    transform: translateX(20rem)translateY(-5rem);
+}
+.mycontact{
+    display: flex;   
+    background: linear-gradient(80deg, #160f74, #130b38);
+    margin: px;
+    max-height: 170px;
+    max-width: 3000px;
+    height: 3000px;
+}
+.title1{
+    margin-left: 200px;
+    font-size: larger;
+    font-size: 40px;  
+    font-weight: bold;
+    color: #beb4df;
+    padding-top: 20px;
+}
+.cont{
+    display: flex;
+    margin-left: 300px;    
+}
+nav {
+    display: flex;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    gap: 5rem;
+}
+nav a{
+    display: flex;
+}
+nav :hover{
+    width: 130px auto;
+    height: 120px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
